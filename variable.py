@@ -39,9 +39,9 @@ print("a", a)
 print("b", b)
 print("c", c)
 print(id(a), id(b), id(c))
-print("a == c", id(a) == id(c))
-print("a == b", id(a) == id(b))
-print("b == c", id(b) == id(c))
+print("a == c", a is c)
+print("a == b", a is b)
+print("b == c", b is c)
 
 ## copy
 from copy import copy
