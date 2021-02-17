@@ -98,9 +98,18 @@ for i in range(1,101): sum += i
 print("sum:", sum)
 
 ## gugudan
-for i in range(1, 10): 
+for i in range(2, 10): 
   for j in range(1, 10): 
     print("%d x %d = %d" % (i, j, i*j))
     #print("{0} x {1} = {2}".format(i, j, i) )
   print("=" * 10)
+
+a = [1,2,3,4]
+result = []
+for num in a:
+  result.append(num*3)
+print(result)
+
+
+
 
